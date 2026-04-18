@@ -163,6 +163,10 @@ Each tick, the current word fades out while sliding up (`translateY` → `-lineH
 
 ---
 
+## Inspiration
+
+Inspired by the [Cycle Text](https://animata.design/docs/text/cycle-text) component from [Animata](https://animata.design) — a beautiful collection of hand-crafted animations for the web.
+
 ## License
 
 MIT © [Ashish Mehra](mailto:ashishmehra.dev@gmail.com)
