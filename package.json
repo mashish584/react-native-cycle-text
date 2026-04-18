@@ -1,0 +1,35 @@
+{
+  "name": "react-native-cycle-text",
+  "version": "1.0.0",
+  "description": "Slot-machine cycling text component for React Native, powered by Reanimated.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --external react-native-reanimated",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "animation",
+    "text",
+    "cycle",
+    "reanimated",
+    "slot-machine"
+  ],
+  "author": "Ashish Mehra <ashishmehra.dev@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-native": ">=0.70",
+    "react-native-reanimated": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
