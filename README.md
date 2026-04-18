@@ -6,13 +6,7 @@ A slot-machine style cycling text component for React Native, powered by [Reanim
 
 ## Preview
 
-```
-I love  [ coding  ]  every day.
-         [ design  ]
-         [ learning]
-```
-
-The bracketed word cycles automatically. Prefix and suffix text stays static.
+![react-native-cycle-text demo](https://raw.githubusercontent.com/mashish584/react-native-cycle-text/master/media/cyclic-text.gif)
 
 ---
 
