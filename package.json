@@ -21,6 +21,10 @@
     "reanimated",
     "slot-machine"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashishmehra-dev/react-native-cycle-text"
+  },
   "author": "Ashish Mehra <ashishmehra.dev@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
