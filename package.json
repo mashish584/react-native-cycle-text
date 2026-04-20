@@ -1,6 +1,6 @@
 {
   "name": "react-native-cycle-text",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Slot-machine cycling text component for React Native, powered by Reanimated.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
