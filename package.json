@@ -10,7 +10,7 @@
     "media"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --external react-native-reanimated",
+    "build": "tsup src/index.ts --format cjs,esm --dts --external react-native-reanimated --external react-native-worklets",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -30,7 +30,8 @@
   "peerDependencies": {
     "react": ">=17",
     "react-native": ">=0.70",
-    "react-native-reanimated": ">=3.0.0"
+    "react-native-reanimated": ">=3.0.0",
+    "react-native-worklets": ">=0.1.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",

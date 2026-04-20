@@ -3,11 +3,11 @@ import { StyleProp, StyleSheet, Text, TextStyle, View, ViewStyle } from 'react-n
 import Animated, {
   cancelAnimation,
   Easing,
-  runOnJS,
   useAnimatedStyle,
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
+import { scheduleOnRN } from 'react-native-worklets';
 
 const DURATION = 80;
 
@@ -63,7 +63,7 @@ export default function CycleText({
         (finished) => {
           if (!finished) return;
           translateY.value = lineHeight;
-          runOnJS(advance)();
+          scheduleOnRN(advance);
           opacity.value = withTiming(1, {
             duration: DURATION,
             easing: Easing.out(Easing.ease),
